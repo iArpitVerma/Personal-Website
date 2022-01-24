@@ -1,0 +1,274 @@
+body{
+    margin: 0;
+    text-align: center;
+    color:black;
+}
+html,body{
+    overflow-x: hidden;
+}
+
+
+
+
+/* Navbar Features */
+.navbar{
+    background-color:  #FFE3DC;
+    color: #531D40;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px;
+    font-size: 20px;
+    color:rgb(150, 29, 108);
+    font-weight: 700;
+}
+.container-fluid{
+    padding:0;
+}
+
+
+
+
+/* Upper Container */
+.upper-container{
+    background-color:  #FFE3DC;
+    position: relative;
+    padding-top: 30px;
+}
+h1{
+    width: 30rem;
+    margin: 30px auto 0px auto;
+    font-family: 'Sacramento', cursive;
+    font-weight: 900;
+    font-size: 5rem;
+    color:#531D40;
+}
+.learner{
+    position: absolute;
+    left:45%;
+}
+span{
+    text-decoration: underline;
+}
+.upper-cloud{
+    position:absolute;
+    right: 65%;
+    bottom:430px;
+    width: 10rem;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 65%;
+    top:200px;
+    width: 10rem;
+}
+.balloon-image{
+    position:absolute;
+    left: 44%;
+    bottom: 250px;
+}
+.ground{
+    position: relative;
+    max-width: 100%;
+    width: 800px;
+    margin: 250px auto 0;
+    size: 50%;
+}
+
+
+
+
+/* Middle Container */
+.Profile-pic{
+    margin-bottom: 1.5rem;
+}
+.intro{
+    width: 30%;
+    margin:auto;
+}
+.middle-container{
+    padding: 100px 0 0 0;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color:#531D40;
+    font-weight: 900;
+}
+p{
+    font-family: 'Merriweather', serif;
+    line-height:2;
+}
+
+
+
+/* Horizontal Row */
+hr{
+    width: 8%;
+    color:#85095a;
+    border-style:dotted none none none ;
+    margin:135px auto;
+}
+
+
+
+/* Skills */
+.skill-row{
+    width: 50%;
+    margin:100px auto;
+    text-align: left;
+    line-height: 2;
+    padding:0 5%;
+}
+.c{
+    float: left;
+    margin-right: 30px;
+}
+.web-dev{
+    float: right;
+}
+h3{
+    font-family: 'Merriweather', serif;
+    color:rgb(150, 29, 108);
+}
+
+
+
+
+/* Contact Me */
+.contact-message{
+    margin: 2rem auto 30px;
+    padding: 0 5rem;
+}
+.btn {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    margin: 10px 20px 50px;
+    font-size: 20px;
+    background: #85095a;
+    background-image: -webkit-linear-gradient(top, #85095a, #2e0922);
+    background-image: -moz-linear-gradient(top, #85095a, #2e0922);
+    background-image: -ms-linear-gradient(top, #85095a, #2e0922);
+    background-image: -o-linear-gradient(top, #85095a, #2e0922);
+    background-image: linear-gradient(to bottom, #85095a, #2e0922);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #faaaaa;
+    background-image: -webkit-linear-gradient(top, #faaaaa, #911414);
+    background-image: -moz-linear-gradient(top, #faaaaa, #911414);
+    background-image: -ms-linear-gradient(top, #faaaaa, #911414);
+    background-image: -o-linear-gradient(top, #faaaaa, #911414);
+    background-image: linear-gradient(to bottom, #faaaaa, #911414);
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+/* Bottom Container */
+.bottom-container{
+    background-color: #FFE3DC;
+    padding: 50px 0 20px;
+    margin: 0;
+}
+.icon{
+    margin-bottom: 1rem;
+    color:#00acee;
+}
+.logo{
+    color:rgb(150, 29, 108);
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    font-weight: 900;
+    margin-right: 3rem;
+    font-size: 1.5rem;
+}
+.logo:hover{
+    color: #faaaaa;
+}
+.github{
+    text-align: right;
+}
+.twitter{
+    text-align: left;
+    padding-left: 55px;
+}
+.trademark{
+    word-spacing: 2px;
+    font-size: 1rem;
+    color:rgb(150, 29, 108);
+}
+
+
+
+/* Media Query- Tablet */
+@media (max-width:785px){
+    .intro{
+        width:50%;
+    }
+    .upper-cloud{
+        top: 25%;
+    }
+    .balloon-image{
+        top: 34%;
+        left: 35%;
+    }
+    .c{
+        float: none;
+        margin-bottom: 1rem;
+    }
+    .web-dev{
+        float: none;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+}
+
+
+
+
+/* Media Query- Phone */
+@media (max-width:490px){
+    h1{
+        padding-right: 10%;
+    }
+    .learner{
+        left: 39%;
+    }
+    .upper-cloud, .bottom-cloud{
+        display: none;
+    }
+    .balloon-image{
+        margin-top: 2rem;
+        width: 8rem;
+    }
+    .mySkills{
+        text-align: left;
+        margin-left: 109.6px;
+    }
+    .skill-row{
+        padding: 0%;
+    }
+    .contact-message{
+        padding: 0 60px;
+    }
+    .github{
+        padding: 0 0 0 2rem;
+    }
+    .twitter{
+        padding-left: 1rem;
+    }
+}
