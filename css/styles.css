@@ -243,7 +243,7 @@ h3{
 /* Media Query- Phone */
 @media (max-width:490px){
     h1{
-        padding-right: 10%;
+        padding-right: 7rem;
     }
     .learner{
         left: 39%;
