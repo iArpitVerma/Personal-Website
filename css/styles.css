@@ -189,7 +189,7 @@ h3{
     color:#00acee;
 }
 .logo{
-    color:rgb(150, 29, 108);
+    color:#a2a2a2;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     font-weight: 900;
@@ -197,7 +197,7 @@ h3{
     font-size: 1.5rem;
 }
 .logo:hover{
-    color: #faaaaa;
+    color: #818181;
 }
 .github{
     text-align: right;
@@ -206,10 +206,13 @@ h3{
     text-align: left;
     padding-left: 55px;
 }
+.fa-github{
+    color:#333333;
+}
 .trademark{
     word-spacing: 2px;
     font-size: 1rem;
-    color:rgb(150, 29, 108);
+    color:#a2a2a2;
 }
 
 
